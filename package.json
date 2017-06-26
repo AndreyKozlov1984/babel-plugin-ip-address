@@ -1,0 +1,22 @@
+{
+  "author": "ZeusTheTrueGod",
+  "contributors": [],
+  "dependencies": {
+    "babel-runtime": "~6.22.0",
+    "ip-address": "^5.8.8",
+    "node-ip": "^0.1.2"
+  },
+  "description": "Replaces the identifier __IP_ADDRESS__ with the current ip address",
+  "devDependencies": {
+    "babel-cli": "~6.22.2"
+  },
+  "homepage": "https://github.com/ZeusTheTrueGod/babel-plugin-transform-line",
+  "license": "BSD-3-Clause",
+  "main": "index.js",
+  "name": "babel-plugin-ip-address",
+  "repository": "ZeusTheTrueGod/babel-plugin-ip-address",
+  "engines": {
+    "node": ">=6.11"
+  },
+  "version": "1.0.0"
+}
