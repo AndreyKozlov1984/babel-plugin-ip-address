@@ -4,6 +4,7 @@
   "dependencies": {
     "babel-runtime": "~6.22.0",
     "ip-address": "^5.8.8",
+    "lodash": "^4.17.4",
     "node-ip": "^0.1.2"
   },
   "description": "Replaces the identifier __IP_ADDRESS__ with the current ip address",
