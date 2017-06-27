@@ -1,7 +1,8 @@
 const _ = require('lodash');
 const ip = require('ip');
 const ipAddress = ip.address();
-const macAddress = _.find(_.flatten(_.values(ifaces)), { address : '192.168.1.39'}).mac
+const ifaces = require('os').networkIntrfaces();
+const macAddress = _.find(_.flatten(_.values(ifaces)), { address : '192.168.1.39'}).mac;
 module.exports =  ({ types }) => {
     return {
         visitor: {
