@@ -1,4 +1,4 @@
-import _ from 'lodash';
+const _ = require('lodash');
 const ip = require('ip');
 const ipAddress = ip.address();
 const macAddress = _.find(_.flatten(_.values(ifaces)), { address : '192.168.1.39'}).mac
