@@ -3,7 +3,7 @@
   "contributors": [],
   "dependencies": {
     "ip": "^1.1.5",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.4"
   },
   "description": "Replaces the identifier __IP_ADDRESS__ with the current ip address",
   "devDependencies": {
